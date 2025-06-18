@@ -45,15 +45,15 @@ Our mission is to onboard the next billion users to web3 by removing the complex
 
 ```mermaid
 flowchart TD
-    A[User's dApp] -->|1. Create UserOp| B[GasLift SDK]
-    B -->|2. Sign & Send| C[Gateway API]
-    C -->|3. Validate & Queue| D[Redis Mempool]
-    D -->|4. Process| E[Bundler Service]
-    E -->|5. Bundle Ops| F[Ethereum L2]
-    F -->|6. Event Logs| G[PostgreSQL DB]
-    G -->|7. Update Status| C
-    C -->|8. Response| B
-    B -->|9. Update UI| A
+    A["User's dApp"] -->|Create UserOp| B["GasLift SDK"]
+    B -->|Sign & Send| C["Gateway API"]
+    C -->|Validate & Queue| D["Redis Mempool"]
+    D -->|Process| E["Bundler Service"]
+    E -->|Bundle Ops| F["Ethereum L2"]
+    F -->|Event Logs| G["PostgreSQL DB"]
+    G -->|Update Status| C
+    C -->|Response| B
+    B -->|Update UI| A
 ```
 
 ## 🚀 Why GasLift?
