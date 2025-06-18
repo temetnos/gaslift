@@ -44,7 +44,7 @@ Our mission is to onboard the next billion users to web3 by removing the complex
 ### Data Flow
 
 ```mermaid
-graph TD
+flowchart TD
     A[User's dApp] -->|1. Create UserOp| B[GasLift SDK]
     B -->|2. Sign & Send| C[Gateway API]
     C -->|3. Validate & Queue| D[Redis Mempool]
