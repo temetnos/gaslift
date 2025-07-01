@@ -1,19 +1,19 @@
-# GasLift ⛽🚀
+# GasLift
 
 ## The Future of Gasless Transactions on Ethereum L2s
 
 GasLift is a next-generation Account Abstraction infrastructure that eliminates gas fees for end-users, making blockchain applications as seamless as web2 experiences. Built specifically for Ethereum L2 ecosystems, GasLift enables dApps to sponsor transaction fees in a secure, scalable, and cost-effective manner.
 
-## 🌟 Vision
+## Vision
 
-Our mission is to onboard the next billion users to web3 by removing the complexities of blockchain transactions. GasLift envisions a future where:
+Mission is to onboard the next billion users to web3 by removing the complexities of blockchain transactions. GasLift envisions a future where:
 
 - Users never need to think about gas fees or seed phrases
 - dApps can abstract away blockchain complexities
 - Developers can focus on building great products instead of wallet integrations
 - Gas sponsorship becomes a standard growth tool for web3 applications
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 ### Core Components
 
@@ -56,7 +56,6 @@ flowchart TD
     B -->|Update UI| A
 ```
 
-## 🚀 Why GasLift?
 
 ### For dApp Developers
 - **Seamless Integration**: Add gasless transactions with <15 LOC
@@ -70,26 +69,7 @@ flowchart TD
 - **Secure**: Non-custodial design ensures asset safety
 - **Cross-Chain**: Unified experience across multiple L2s
 
-## 🔮 Long-Term Vision
-
-### Phase 1: Foundation (Now)
-- Support for Base Sepolia and Optimism Sepolia testnets
-- Basic paymaster functionality with USDC support
-- Developer SDK with TypeScript and React bindings
-
-### Phase 2: Mainnet Ready (Q3 2025)
-- Mainnet deployment on Base and Optimism
-- Advanced gas optimization algorithms
-- Multi-wallet support (EIP-1271)
-- Comprehensive monitoring and analytics
-
-### Phase 3: Ecosystem Growth (2026)
-- Support for additional L2s (Arbitrum, zkSync, etc.)
-- On-ramp integration for easy fiat deposits
-- Governance token and DAO for protocol upgrades
-- Decentralized bundler network
-
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 .
@@ -103,9 +83,6 @@ flowchart TD
 └── .github/           # CI/CD workflows
 ```
 
-## 🤝 Contributing
-
-We're actively seeking contributors who are passionate about account abstraction and improving blockchain UX. Check out our [Contribution Guidelines](CONTRIBUTING.md) to get started.
 
 ## 📄 License
 
@@ -122,24 +99,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Redis 7
 - Postgres 15
 
-### Commands
-
-```bash
-# Install dependencies
-pnpm install
-
-# Run all tests
-pnpm test
-
-# Start development servers
-pnpm dev
-
-# Build all packages
-pnpm build
-
-# Lint code
-pnpm lint
-```
 
 ## License
 
